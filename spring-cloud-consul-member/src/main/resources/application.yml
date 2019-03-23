@@ -1,0 +1,6 @@
+server:
+  port: 9000
+spring:  application:    name: cgy-member  cloud:    consul:      host: 127.0.0.1
+      port: 8500
+      discovery:       ## hostname: mymember        health-check-interval: 5s
+        
